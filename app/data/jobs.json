@@ -1,0 +1,84 @@
+
+
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Zimcrest Technology",
+      "location": "Lagos, Nigeria",
+      "salary": "₦250,000 - ₦500,000",
+      "requiredSkills": ["React", "JavaScript", "CSS"],
+      "matchScore": 80,
+      "logo": "/images/job-img1.png"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "Twitter",
+      "location": "Seattle, WA",
+      "salary": "$35,000 - $130,000",
+      "requiredSkills": ["Node.js", "MongoDB", "AWS"],
+      "matchScore": 60,
+      "logo": "/images/job-img2.png"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": "Meta",
+      "location": "Menlo Park, CA",
+      "salary": "$40,000 - $110,000",
+      "requiredSkills": ["Figma", "Adobe XD", "Wireframing"],
+      "matchScore": 50,
+      "logo": "/images/jobs-img3.png"
+    },
+    {
+      "id": 4,
+      "title": "Software Engineer",
+      "company": "Microsoft",
+      "location": "Redmond, WA",
+      "salary": "$20,000 - $125,000",
+      "requiredSkills": ["C#", "Azure", ".NET"],
+      "matchScore": 40,
+      "logo": "/images/jobs-img4.png"
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
+      "company": "Netflix",
+      "location": "Los Gatos, CA",
+      "salary": "$50,000 - $140,000",
+      "requiredSkills": ["Python", "Machine Learning", "SQL"],
+      "matchScore": 90,
+      "logo": "/images/jobs-img3.png"
+    },
+    {
+      "id": 6,
+      "title": "DevOps Engineer",
+      "company": "Spotify",
+      "location": "Stockholm, Sweden",
+      "salary": "$30,000 - $125,000",
+      "requiredSkills": ["Docker", "Kubernetes", "AWS"],
+      "matchScore": 50,
+      "logo": "/images/job-img2.png"
+    },
+    {
+      "id": 7,
+      "title": "UI Engineer",
+      "company": "Twitter",
+      "location": "San Francisco, CA",
+     "salary": "$80,000 - $100,000",
+      "requiredSkills": ["Figma", "React", "CSS"],
+      "matchScore": 50,
+      "logo": "/images/jobs-img3.png"
+    },
+    {
+      "id": 8,
+      "title": "Cybersecurity Analyst",
+      "company": "IBM",
+      "location": "New York, NY",
+      "salary": "$45,000 - $120,000",
+      "requiredSkills": ["Cybersecurity", "Network Security", "Python"],
+      "matchScore": 40,
+      "logo": "/images/jobs-img5.png"
+    }
+]

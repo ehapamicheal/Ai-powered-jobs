@@ -1,21 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+/* body {
+  font-family: "DM Sans", sans-serif;
+} */
+
+body {
+  @apply font-dm;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.jobs_select option {
+  @apply text-black-4 text-sm;
+}
+
+
+@media (max-width: 900px) {
+  .nav_container {
+    display: none;
+  }
+
+  .header_container {
+    width: 100%;
+    left: 0;
+  }
+
+  .right_section {
+    margin-left: 0;
+    width: 100%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+
+@media (max-width: 640px) {
+  .search_box_wrapper{
+    display: none;
+  }
 }
