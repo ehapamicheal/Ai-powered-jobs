@@ -34,12 +34,12 @@ export default {
         dm: ["DM Sans", "sans-serif"],
       },
       screens: {
-        xs: "375px",  // Extra small devices (small phones)
-        sm: "640px",  // Small devices (phones)
-        md: "768px",  // Medium devices (tablets)
-        lg: "900px", // Large devices (laptops/desktops)
-        xl: "1024px", // Extra large devices (big desktops)
-        "2xl": "1536px", // 2X large screens
+        xs: "375px", 
+        sm: "640px", 
+        md: "768px", 
+        lg: "900px",
+        xl: "1024px", 
+        "2xl": "1536px",
       },
      
     },

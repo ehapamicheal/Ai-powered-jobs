@@ -8,7 +8,6 @@ import Avatar from '@/public/images/avatar.png';
 import { navLinks } from '../data/Data';
 import { usePathname } from "next/navigation";
 import { MdOutlineClose } from "react-icons/md";
-// import { useState } from "react";
 
 
 const SideBar = ({ isSidebarOpen, onToggleSidebar }) => {
@@ -17,9 +16,6 @@ const SideBar = ({ isSidebarOpen, onToggleSidebar }) => {
 
   return (
     <nav className={`nav_container flex flex-col top-0 fixed pt-5 pb-3 w-64 h-screen border-r border-gray-1  ${isSidebarOpen ? "active" : ""}`}>
-
-
-
         <aside className="aside_wrapper pl-4 pr-3 relative h-screen">
             <div className="close_box xl:hidden block">
                     <MdOutlineClose   onClick={onToggleSidebar}
